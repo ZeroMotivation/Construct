@@ -1,5 +1,7 @@
 header {
-    background-color: url('img/bg.png');
+    width: 1440px;
+    height: 768px;
+    background: url('img/bg.png') no-repeat;
     background-size: cover;
 }
 
