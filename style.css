@@ -4,3 +4,23 @@ header {
     background: url('img/bg.png') no-repeat;
     background-size: cover;
 }
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.about__images {
+    display: flex;
+    flex-direction: row;
+}
+
+.about__images-image {
+    margin-right: 20px;
+}
+
+.get-in-touch {
+    width: 1440px;
+    height: 499px;
+    background: url('img/bg\ \(1\).png');
+}
