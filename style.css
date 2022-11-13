@@ -24,3 +24,25 @@ header {
     height: 499px;
     background: url('img/bg\ \(1\).png');
 }
+
+.services__cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.services__cards-card {
+    width: 295px;
+    height: 300px;
+    border: solid 1px rgba(196, 196, 196, 0.5);
+    margin-right: 20px;
+}
+
+.card-icon {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.card-text {
+    margin-top: 20px;
+    margin-left: 20px;
+}
