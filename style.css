@@ -1,9 +1,22 @@
 header {
-    width: 1440px;
+    width: 100vw;
     height: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
     background: url('img/bg.png') no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    padding: 20px 0px 20px 0px;
     color: white;
+}
+
+.header__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about {
@@ -21,9 +34,11 @@ header {
 }
 
 .get-in-touch {
-    width: 1440px;
+    width: 100vw;
     height: 499px;
-    background: url('img/bg\ \(1\).png');
+    background: url('img/bg\ \(1\).png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .services__cards {
@@ -51,7 +66,13 @@ header {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    width: 100vw;
+    padding: 10px 200px 10px 200px;
+    border: 1px solid black;
+}
+
+.nav__logo {
+    margin-right: 200px;
 }
 
 .nav__links a {
@@ -59,10 +80,44 @@ nav {
 }
 
 footer {
-    background: black;
+    background: #141A20;
     color: white;
 }
 
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 200px 40px 200px;
+}
+
+.footer__group {
+    margin-right: 50px;
+}
+
+.footer__copyright {
+    background-color: #171819;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__contacts {
+    margin-right: 50px;
+}
+
+.footer__socials {
+    display: flex;
+
+}
+
+.socials__icon {
+    margin-right: 20px;
+}
+
+.newsletter {
+    background-color: #171819;
+    color: white;
+}
 
 .about__images-image p {
     position: absolute;
