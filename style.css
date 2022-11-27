@@ -8,7 +8,7 @@ header {
     position: relative;
     background: url('img/bg.png') no-repeat;
     background-size: 100% 100%;
-    padding: 20px 0px 20px 0px;
+    padding: 45px 0px 45px 0px;
     color: white;
 }
 
@@ -33,6 +33,10 @@ header {
     margin-right: 20px;
 }
 
+.main__container {
+    padding: 0px 200px 0px 200px
+}
+
 .get-in-touch {
     width: 100vw;
     height: 499px;
@@ -41,9 +45,15 @@ header {
     background-position: center;
 }
 
+.services__header {
+    display: flex;
+
+}
+
 .services__cards {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .services__cards-card {
