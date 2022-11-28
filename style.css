@@ -70,16 +70,15 @@ header {
 }
 
 .services__cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
 .services__cards-card {
     width: 295px;
     height: 300px;
     border: solid 1px rgba(196, 196, 196, 0.5);
-    margin-right: 20px;
 }
 
 .card-icon {
