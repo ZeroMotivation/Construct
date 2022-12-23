@@ -22,6 +22,11 @@ header {
     color: white;
 }
 
+.container {
+    max-width: 58em;
+    margin: 0 auto;
+}
+
 .header__container {
     display: flex;
     flex-direction: column;
