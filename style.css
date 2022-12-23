@@ -4,11 +4,30 @@ body {
     margin: auto;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 header {
     width: 100vw;
-    height: 25%;
+    height: 769px;
     background-image: url("img/bg.png");
     background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
 }
 
 .header__title {
@@ -22,139 +41,44 @@ header {
     color: white;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
+    font-size: 60px;
+    letter-spacing: 5.7px;
 }
 
-.about__container {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 40px;
+.header__description {
+    font-size: 16px;
 }
 
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.about h3 {
-    margin-bottom: 80px;
-}
-
-.about__images {
-    display: flex;
-    flex-direction: row;
-}
-
-.about__images-image {
-    margin-right: 20px;
-}
-
-.main__container {
-    padding: 0px 200px 0px 200px
-}
-
-.get-in-touch {
-    width: 100%;
-    height: 499px;
-    background: url('img/bg\ \(1\).png') no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-}
-
-.services__header {
-    display: flex;
-    margin-bottom: 40px;
-}
-
-.services__header h3 {
-    margin-right: 80px;
-}
-
-.services__cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-}
-
-.services__cards-card {
-    width: 295px;
-    height: 300px;
-    border: solid 1px rgba(196, 196, 196, 0.5);
-}
-
-.card-icon {
-    margin-top: 40px;
-    margin-left: 20px;
-}
-
-.card-text {
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-nav {
-    width: 100%;
-    border: 1px solid rgb(167, 167, 167);
-    margin-bottom: 80px;
+.header__scroll {
+    font-size: 11px;
+    letter-spacing: 3.7px;
 }
 
 .nav__container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 5px 200px 5px 200px;
+    justify-content: center;
+    gap: 80px;
 }
 
-.nav__logo {
-    margin-right: 200px;
+.menu__list {
+    display: flex;
+    gap: 20px;
 }
 
-.nav__links a {
-    margin-right: 20px;
+.menu__link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #48555B;
 }
 
-footer {
-    background: #141A20;
-    color: white;
+.footer {
+    width: 100vw;
+    height: 12%;
 }
 
 .footer__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 200px 40px 200px;
-}
-
-.footer__group {
-    margin-right: 50px;
-}
-
-.footer__copyright {
-    background-color: #171819;
-    display: flex;
-    justify-content: center;
-}
-
-.footer__contacts {
-    margin-right: 50px;
-}
-
-.footer__socials {
-    display: flex;
-
-}
-
-.socials__icon {
-    margin-right: 20px;
-}
-
-.newsletter {
-    background-color: #171819;
-    color: white;
-}
-
-.about__images-image p {
-    position: absolute;
-    color: white;
-    font-size: 24px;
+    width: inherit;
+    height: inherit;
+    background-color: #141A20;
 }
