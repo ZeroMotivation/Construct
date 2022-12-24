@@ -22,6 +22,10 @@ header {
     color: white;
 }
 
+nav {
+    border-bottom: 1px solid #E6E6E6;
+}
+
 .container {
     max-width: 58em;
     margin: 0 auto;
@@ -72,7 +76,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 250px;
-    border-bottom: 1px solid #E6E6E6;
 }
 
 .menu__list {
@@ -114,18 +117,44 @@ header {
     gap: 20px;
 }
 
+.title__container {
+    margin-bottom: 80px;
+}
+
 .about__title {
     font-size: 18px;
     letter-spacing: 2.3px;
 }
 
+.about__text {
+    margin-right: 90px;
+}
+
 .about__text-top {
+    margin-bottom: 30px;
     font-size: 20px;
     letter-spacing: 0.18px;
 }
 
 .about__text-bottom {
     font-size: 13px;
+}
+
+.about__content {
+    line-height: 23px;
+}
+
+.card {
+    position: relative;
+}
+
+.card__header {
+    position: absolute;
+    top: 0px;
+    left: 14px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
 
 .konstruct {
